@@ -1,14 +1,19 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const {writeFile} = fs.promises
 const markDown = require("../utils/generateMarkdown")
-// TODO: Create an array of questions for user input
+//Create an array of questions for user input
 const questions = [
   {
     type: "input",
     message: "What is the title of your application",
     name: "title",
+  },
+  {
+     type: "input",
+    message: "Describe your application",
+    name: "description",
   },
   {
     type: "input",
@@ -26,23 +31,29 @@ const questions = [
     name: "contribution",
   },
   {
+    type: "list",
+    message: "What kind of License are you using for this project?",
+    name: "license",
+    choices: ["MIT", "GNU", "Apache2.0"]
+  },
+  {
     type: "input",
     message: "What tests did you write if any to test out your application?",
     name: "tests",
   },
   {
     type: "input",
-    message: "What is your Git Hub Username and email?",
+    message: "What is your Git Hub Username?",
     name: "contact",
   },
 ];
 
-// TODO: Create a function to write README file
+//Create a function to write README file
 function writeToFile(fileName, data) {
     writeFile(fileName, data)
 }
 
-// TODO: Create a function to initialize app
+//Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((userData) => {
