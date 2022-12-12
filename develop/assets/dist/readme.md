@@ -1,8 +1,8 @@
-# app
+# Johnnys Application
 
 ## Description
 
-tea
+It is an app people can use to locate the nearest apple pie to them 
 
 ## Table of Contents 
 
@@ -13,15 +13,15 @@ tea
 
 ## Installation
 
-lots of stuff
+go to johnnys git hub, download it through the ssh option and then naviagte to the directory you would like it in and then git clone it in
 
 ## Usage
 
-true
+just search your current location
 
 ## Credits
 
-me
+just me and johnny
 
 ## License
 
@@ -35,6 +35,6 @@ MIT
 
 ## Tests
 
-mome
+none
 
 [GitHub Link](https://github.com/loudwhisperer)
