@@ -17,7 +17,7 @@ Through this I learned not only how powerful the template literal can be but tha
 
 As shown in the video below the user will simply navigate to assets in this application then run node index in their terminal and answer the series of questions regarding their README, once done the README will be generated in the dist folder.
 
-![](develop/assets/pic/vids/githubrepotest.webm)
+[![Watch the video](develop/assets/pic/vids/node-index.png)](https://drive.google.com/file/d/17X6H2RQDDmUUDTmMksGqG1GuIumDKd1l/view)
 
 ## License
 
